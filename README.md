@@ -24,6 +24,7 @@ Exibir por canal e categoria.
 Média de itens vendidos (últimos 30 dias)
 
 Média diária de Qtd considerando os últimos 30 dias.
+
 📏 Regras de Negócio Esperadas
 Primeira compra = MIN(DataHoraVenda) por ClienteID
 Última compra = MAX(DataHoraVenda) por ClienteID
