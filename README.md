@@ -21,15 +21,21 @@ Definição: última compra há mais de 6 meses.
 Vendas acumuladas (YTD)
 
 Exibir por canal e categoria.
+
 Média de itens vendidos (últimos 30 dias)
 
 Média diária de Qtd considerando os últimos 30 dias.
 
 📏 Regras de Negócio Esperadas
+
 Primeira compra = MIN(DataHoraVenda) por ClienteID
+
 Última compra = MAX(DataHoraVenda) por ClienteID
+
 Novos clientes = primeira compra no mês
+
 Inativos = última compra anterior a (data de referência – 180 dias)
+
 Ticket médio 
 YTD = soma de ValorLiquido no ano até a data selecionada
 🛠 Requisitos Técnicos
